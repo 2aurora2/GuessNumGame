@@ -2,6 +2,7 @@
 #include<cstdlib>
 #include"menu.h"
 #include"var.h"
+#include"Game.h"
 using namespace std;
 int main(void)
 {
@@ -14,6 +15,29 @@ int main(void)
 		switch (option)
 		{
 		case 1:
+			system("cls");
+			ShowChoice();
+			cout << "请玩家输入您的选择：";
+			cin >> option1;
+			switch (option1)
+			{
+				//1为简单难度
+			case 1:
+				system("cls");
+				while (mark5 == 'y')
+				{
+					EasyGame();
+					cout << "是否继续游戏(y/n)：";
+					cin >> mark5;
+				}
+				mark5 = 'y';
+				break;
+				//2为困难难度
+			case 2:
+				break;
+			default:
+				break;
+			}
 			break;
 		case 2:
 			system("cls");
@@ -29,6 +53,11 @@ int main(void)
 			break;
 		case 4:
 			return 0;
+		default:
+			cout << "输入异常！" << endl;
+			cout << "输入任意字符重置！" << endl;
+			cin >> mark4;
+			break;
 		}
 	}
 	return 0;

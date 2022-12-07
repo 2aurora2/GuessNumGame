@@ -139,13 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EasyGame.cpp" />
+    <ClCompile Include="HardGame.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="SetGameDifficulty.cpp" />
+    <ClCompile Include="ShowChoice.cpp" />
     <ClCompile Include="ShowGameRule.cpp" />
     <ClCompile Include="var.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Game.h" />
     <ClInclude Include="menu.h" />
     <ClInclude Include="var.h" />
   </ItemGroup>

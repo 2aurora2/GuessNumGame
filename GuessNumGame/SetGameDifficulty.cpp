@@ -5,6 +5,7 @@
 using namespace std;
 void SetGameDifficulty()
 {
+	cout << "当前难度为：" << level << endl;
 	cout << "玩家请输入自定义的难度(2-10)：";
 	string str1;
 	while (1)
@@ -27,7 +28,7 @@ void SetGameDifficulty()
 				cout << "难度至少为2噢！难度太低对玩家这样聪明的人没意思，对吧？(狗头.jpg)" << endl
 				<< "请玩家重新输入：";
 			else if (level > 10)
-				cout << "Sorry!游戏难度目前最高只能为10噢！后续会加油改进的！" << endl
+				cout << "由于猜测的数字由不重复的0-9组成，所以最多只能猜测10个数字哦" << endl
 				<< "请玩家重新输入：";
 			else
 			{

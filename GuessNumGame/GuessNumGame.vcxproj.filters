@@ -30,12 +30,24 @@
     <ClCompile Include="SetGameDifficulty.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ShowChoice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HardGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="menu.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="var.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
