@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b018149c-e96c-4eb8-a0eb-625ac12e3d37": {
+      "ProjectGuid": "b018149c-e96c-4eb8-a0eb-625ac12e3d37",
+      "DisplayName": "GuessNumGame",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
