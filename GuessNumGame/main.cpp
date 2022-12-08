@@ -34,6 +34,14 @@ int main(void)
 				break;
 				//2为困难难度
 			case 2:
+				system("cls");
+				while (mark6 == 'y')
+				{
+					HardGame();
+					cout << "是否继续游戏(y/n)：";
+					cin >> mark6;
+				}
+				mark6 = 'y';
 				break;
 			default:
 				break;

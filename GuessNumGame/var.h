@@ -12,6 +12,10 @@ extern char mark2;
 extern bool mark3;
 extern char mark4;
 extern char mark5;
+extern char mark6;
 //简单难度下的变量
 extern int EasyRightBoth;
 extern int EasyRightNum;
+//困难难度下的变量
+extern int HardRightBoth;
+extern int HardRightNum;

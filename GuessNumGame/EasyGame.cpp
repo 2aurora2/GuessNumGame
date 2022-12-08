@@ -25,7 +25,7 @@ void EasyGame()
 			bool tempJudge = true;
 			temp = rand() % 10;
 			for (int j = 0; j < i; ++j)
-				if (temp == AnswerNum1[i])
+				if (temp == AnswerNum1[j])
 				{
 					tempJudge = false;
 					--i;
@@ -55,7 +55,11 @@ void EasyGame()
 			if (EasyRightBoth == level)
 			{
 				if (level == 10)
+				{
+					EasyJudge = true;
 					cout << "恭喜玩家通过简单难度的最后关卡！你已经无可匹敌了！" << endl;
+					level = 2;
+				}
 				else
 				{
 					EasyJudge = true;
