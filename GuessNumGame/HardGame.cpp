@@ -41,9 +41,25 @@ void HardGame()
 		while (!HardJudge)
 		{
 			HardRightBoth = HardRightNum = 0;
-			cout << "请玩家输入猜测的数字以及位置(注意每个数字是不一样的噢)：";
-			for (int i = 0; i < level; ++i)
-				cin >> InputNum2[i];
+			//对玩家输入的数字进行限制只能输入单个数字并且用空格隔开
+			bool judgeinput1 = true;
+			while (judgeinput1)
+			{
+				cout << "请玩家输入猜测的数字以及位置(输入数字的个数要和当前难度等级一致！！)：" << endl;
+				for (int i = 0; i < level; ++i)
+				{
+					cin >> InputNum2[i];
+					if (InputNum2[i] >= 10)
+						judgeinput1 = false;
+				}
+				if (!judgeinput1)
+				{
+					cout << "输入的每个数字都应该是0-9并用空格隔开噢！" << endl;
+					judgeinput1 = true;
+				}
+				else
+					judgeinput1 = false;
+			}
 			//对玩家猜测进行判断
 			for (int i = 0; i < level; ++i)
 				for (int j = 0; j < level; ++j)

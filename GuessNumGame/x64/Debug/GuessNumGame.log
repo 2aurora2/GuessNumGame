@@ -1,2 +1,4 @@
-﻿  ShowGameRule.cpp
-  GuessNumGame.vcxproj -> D:\desk\GuessNumGame\x64\Debug\GuessNumGame.exe
+﻿  EasyGame.cpp
+  HardGame.cpp
+  正在生成代码...
+  GuessNumGame.vcxproj -> D:\desk\github\GuessNumGame\x64\Debug\GuessNumGame.exe
