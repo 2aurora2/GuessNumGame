@@ -1,4 +1,11 @@
 ﻿  EasyGame.cpp
   HardGame.cpp
+  main.cpp
+  Menu.cpp
+  SetGameDifficulty.cpp
+  ShowChoice.cpp
+  ShowGameRule.cpp
+  var.cpp
   正在生成代码...
-  GuessNumGame.vcxproj -> D:\desk\github\GuessNumGame\x64\Debug\GuessNumGame.exe
+  LINK : 没有找到 G:\Homework\程序设计基础实验\实验6\GuessNumGame\x64\Debug\GuessNumGame.exe 或上一个增量链接没有生成它；正在执行完全链接
+  GuessNumGame.vcxproj -> G:\Homework\程序设计基础实验\实验6\GuessNumGame\x64\Debug\GuessNumGame.exe
